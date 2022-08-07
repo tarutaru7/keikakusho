@@ -28,7 +28,7 @@
 
 %全体の要因
 %現在少子化は，様々な問題点が存在している．  % 少子化の問題点＝労働人口減少や人口ピラミッド逆転などなので，ちょっと言葉が違います．
-現在少子化は，様々な要因から起こされている．https://www.ipss.go.jp/ps-doukou/j/doukou15/doukou15_gaiyo.asphttps://www.ipss.go.jp/ps-doukou/j/doukou15/doukou15_gaiyo.asp
+現在少子化は，様々な要因から起こされている． % https://www.ipss.go.jp/ps-doukou/j/doukou15/doukou15_gaiyo.asphttps://www.ipss.go.jp/ps-doukou/j/doukou15/doukou15_gaiyo.asp
 % 晩婚化の進展について
 % 書いてね
 近年では女性の社会進出により男女間の格差がなくなり，以前よりも結婚するより仕事に時間を費やしたいと思う女性が増えているため晩婚化が進んでいると考えられる．\cite{sasaki2012}．
@@ -57,16 +57,32 @@
 % 今回は，晩婚化が進んでいることや，結婚意欲が変わっていないことなどを説明しつつ，マッチングアプリやSNSの話を通じて，いきなり会うのは怖いよねというところに着地できればOK．
 % データは，これまでに参照したものに加えて，下記からも参照すること．
 % https://www.ipss.go.jp/ps-doukou/j/doukou15/doukou15_gaiyo.asp
-晩婚化について表\ref{fig:初婚}にあるように平成7年から平成27年にかけての20年間で平均初婚年齢が夫は2.6歳，妻は3.1歳増加している．
-一方，結婚意欲に関しては図\ref{fig:教科書}のように18\～34歳の結婚意欲は1987年の男性が91.8\%,女性が92.9\%に対し2010年の男性が86.3\%,女性が89.4\%と23年間でそれぞれ5.5\%と3.5\%程度しか減少していない．
+晩婚化について表\ref{table:shokon}にあるように平成7年から平成27年にかけての20年間で平均初婚年齢が夫は2.6歳，妻は3.1歳増加している．
+%一方，結婚意欲に関しては図\ref{fig:教科書}のように18\～34歳の結婚意欲は1987年の男性が91.8\%,女性が92.9\%に対し2010年の男性が86.3\%,女性が89.4\%と23年間でそれぞれ5.5\%と3.5\%程度しか減少していない．
 ここから，結婚意欲がほとんど減少していないことが分かる．
-\begin{figure}[h]
-\begin{center}
- \includegraphics[clip,width=85mm,height=55mm]{スクリーンショット_2022-08-07_205435.jpg}
-\end{center}
- \caption{平均初婚年齢}
- \label{fig:初婚}
-\end{figure}
+%\begin{figure}[h]
+%\begin{center}
+% \includegraphics[clip,width=85mm,height=55mm]{スクリーンショット_2022-08-07_205435.jpg}
+%\end{center}
+% \caption{平均初婚年齢}
+% \label{fig:初婚}
+%\end{figure}
+\begin{table}
+\centering
+  \caption{平均初婚年齢}
+  \label{table:shokon}
+  \begin{tabular}{rrr}
+   & 夫（歳） & 妻（歳） \\
+  平成7年 & 28.5 & 26.3 \\
+  平成17年 & 29.8 & 28.0 \\
+  平成23年 & 30.7 & 29.0 \\
+  平成24年 & 30.8 & 29.2 \\
+  平成25年 & 30.9 & 29.3 \\
+  平成26年 & 31.1 & 29.4 \\
+  平成27年 & 31.1 & 29.4 \\
+  \end{tabular}
+  \end{table}
+
 
 %ほどが減少していることから未婚者が結婚意欲をそがれているのではないかと思い調査したが図\ref{fig:教科書}にあるように男性・女性ともに85％がいずれは結婚したいと答えており意欲が大きく下がっているわけではないと確認できた\cite{naikakufu2019} ．
 %次に交際率，婚姻率の減少がどこからきているのかについて考える．その理由として交際への不安というものが取り上げられる．
@@ -101,9 +117,8 @@
 一度会ってから合うか合わないかの確認，時間がない\cite{chou2014}等も仮想的な空間で短時間で体験できるシステムであれば解決するだろうと考えられる．
 これらの解決策から私はVRデートアプリケーションというものを提案する．
 \begin{figure}[h]
-\begin{center}
- \includegraphics[width=85mm]{fig1.pdf}
-\end{center}
+\centering
+ \includegraphics[width=85mm]{iyoku.jpg.pdf}
  \caption{いずれ結婚したいと思っている18歳から34歳の未婚者の割合}
  \label{fig:教科書}
 \end{figure}
